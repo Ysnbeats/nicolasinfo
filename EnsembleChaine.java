@@ -17,8 +17,15 @@ public boolean ajouter(String[] tab) {
 return false ;
 }
 //Test si l’ensemble e est équivalent à l’ensemble courant
+
 public boolean equals(EnsembleChaine e) {
-return false ;
+	EnsembleChaine e1;
+	if (e1!=e)
+	 {
+		return false;}
+	
+	else	
+		{return true;}
 }
 //Renvoie l’union de l’ensemble e et l’ensemble courant
 public EnsembleChaine union(EnsembleChaine e){
