@@ -17,9 +17,8 @@ public boolean ajouter(String[] tab) {
 return false ;
 }
 //Test si l’ensemble e est équivalent à l’ensemble courant
-
-public boolean equals(EnsembleChaine e, EnsembleChaine f) {
-	
+public boolean equals(EnsembleChaine e) {
+	EnsembleChaine f=null;
 	if (f==e)
 	 {
 		return true;}
