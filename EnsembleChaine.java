@@ -10,7 +10,7 @@ liste = new ArrayList<String>() ;
 }
 //Ajoute chaque chaine de tab, si elle n’existe pas déjà, à l’ensemble
 public boolean ajouter(String[] tab) {
-	for (int i : tab) {
+	for (string i : tab) {
 		if (!(liste.contains (i)))
 		liste.add(i);
 	
