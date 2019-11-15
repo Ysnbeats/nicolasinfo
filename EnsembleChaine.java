@@ -19,13 +19,14 @@ return false ;
 //Test si l’ensemble e est équivalent à l’ensemble courant
 
 public boolean equals(EnsembleChaine e) {
-	EnsembleChaine e1;
-	if (e1!=e)
+	EnsembleChaine f =null;
+	if (f==e)
 	 {
-		return false;}
+		return true;}
 	
-	else	
-		{return true;}
+	else	 
+		{
+		return false;}
 }
 //Renvoie l’union de l’ensemble e et l’ensemble courant
 public EnsembleChaine union(EnsembleChaine e){
