@@ -8,27 +8,27 @@ ArrayList< String > liste;
 public EnsembleChaine(){
 liste = new ArrayList<String>() ;
 }
-//Ajoute chaque chaine de tab, si elle n’existe pas déjà, à l’ensemble
+//Ajoute chaque chaine de tab, si elle nâ€™existe pas dÃ©jÃ , Ã  lâ€™ensemble
 public boolean ajouter(String[] tab) {
-	for (int i = 0; i <n; i++) {
-		liste.add(tab[i]) 
-	 }
+	for (int i : tab) {
+		if (!(liste.contains (i)))
+		liste.add(i);
 	
 return false ;
 }
-//Test si l’ensemble e est équivalent à l’ensemble courant
+//Test si lâ€™ensemble e est Ã©quivalent Ã  lâ€™ensemble courant
 public boolean equals(EnsembleChaine e) {
 return false ;
 }
-//Renvoie l’union de l’ensemble e et l’ensemble courant
+//Renvoie lâ€™union de lâ€™ensemble e et lâ€™ensemble courant
 public EnsembleChaine union(EnsembleChaine e){
 return null ;
 }
-//Renvoie l’intersection de l’ensemble e et l’ensemble courant
+//Renvoie lâ€™intersection de lâ€™ensemble e et lâ€™ensemble courant
 public EnsembleChaine intersection(EnsembleChaine e){
 return null ;
 }
-//Renvoie l’union disjointe de l’ensemble e et l’ensemble courant
+//Renvoie lâ€™union disjointe de lâ€™ensemble e et lâ€™ensemble courant
 public EnsembleChaine unionDisjointe(EnsembleChaine e){
 return null ;
 }
